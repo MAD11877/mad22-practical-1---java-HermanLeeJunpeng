@@ -11,6 +11,11 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
-    
+    System.out.println("Please enter a number");
+    int number = in.nextInt();
+
+    int multiplication = number * number;
+
+    System.out.println("The number multiplied by itself is: " + multiplication);
   }
 }
